@@ -16,6 +16,7 @@ h3 {
 }
 
 p {
+    font-size: 14px;
     text-indent: 1em;
 }
 
@@ -27,8 +28,8 @@ p {
     text-align: right;
 }
 
-.shift-left {
-    margin-right: 10%;
+.double-space {
+    line-height: 200%;
 }
 
 .container {
@@ -59,4 +60,12 @@ p {
 
 .letter-container h2 {
     text-decoration: underline;
+    margin-top: -1em;
+    font-size: 2em !important;
+}
+
+.signature {
+    font-family: cursive;
+    font-size: 18px;
+    margin-top: 1em;
 }
