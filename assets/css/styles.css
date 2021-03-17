@@ -32,15 +32,29 @@ p {
 }
 
 .container {
-    background: rgba(255, 255, 255, .9);
+    background: rgba(152, 251, 152, .8);
     padding: 0.1em 5em;
+}
+
+.title-container {
+    padding: 0.1em 0 3em;
+}
+
+.title-container .title {
+    line-height: 75%;
 }
 
 .title-container h1,
 .title-container h2,
 .title-container h3 {
-    color: green;
+    color: darkgreen;
     text-shadow: .05em .05em .1em limegreen;
+}
+
+.letter-container {
+    color: darkgreen;
+    line-height: 200%;
+    font-weight: bold;
 }
 
 .letter-container h2 {
