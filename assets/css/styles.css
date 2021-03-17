@@ -8,7 +8,9 @@ div {
     margin: 5em 0;
 }
 
-h1, h2, h3 {
+h1, 
+h2, 
+h3 {
     text-align: center;
 }
 
@@ -31,4 +33,15 @@ p {
 .container {
     background: rgba(255, 255, 255, .9);
     padding: 0.1em 5em;
+}
+
+.title-container h1,
+.title-container h2,
+.title-container h3 {
+    color: green;
+    text-shadow: .05em .05em .1em limegreen;
+}
+
+.letter-container h2 {
+    text-decoration: underline;
 }
